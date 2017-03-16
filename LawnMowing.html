@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Strommen Services - Lawn Mowing</title>
+		</head>
+		<body>
+		<style>
+		#extragreensquare{
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			left: 950px;
+		}
+		#mainimage{
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			left: 650px;
+		}
+		#maintitle{
+			color: white;
+			background-color: green;
+			font-size: 2em;
+		}
+		#tagline{
+			color: white;
+			background-color: green;
+			position: absolute;
+			bottom: 550px;
+			font-size: 0.8em;
+		}
+		h1 {
+			color: white;
+			background-color: green;
+		}
+		#start{
+			color: white;
+			background-color: black;
+			font-family: sans-serif;
+		}
+		.heading{
+			color: white;
+			background-color: green;
+			font-family: sans-serif;
+		}
+		.paragraph{
+			color: white;
+			background-color:black;
+			font-family: sans-serif;
+		}
+		</style>
+		<!--Photos Section-->
+		<!--
+		<img id=extragreensquare src="http://upload.wikimedia.org/wikipedia/commons/b/b2/Green_square.svg">
+		<img id=mainimage src="http://upload.wikimedia.org/wikipedia/commons/b/b2/Green_square.svg">
+		<img id=mainimage src="http://www.saturdaylawnmowing.co.uk/wp-content/uploads/2014/08/1407707396_Lawn_Mower.png">
+		-->
+		<h1><strong><em id="maintitle">Strommen Services</em></strong></h1>
+		<h1><strong><em id="tagline">Fulfilling your lawn care needs since 2015</em></strong></h1>
+		<p class="paragraph">
+		Strommen Services is a family business that can mow lawns in the 193rd and 195th St<br>
+		neighborhood. We can mow and trim the edges of your lawn for one time or you can sign<br>
+		up for regular mowing all season.
+		</p>
+		<!--Sale Section-->
+		<h1><strong class="heading">Sale!</strong></h2>
+		<p class="paragraph">
+		Sign up for a whole season of weekly lawn mowing by April 1st and receive 25% off of<br>
+		your weekly rate! That is a $75 saving in only one season!
+		</p>
+		<!--Prices-->
+		<h1><strong class="heading">Prices</strong><h1>
+		<h2><strong class="heading">One-time</strong></h2>
+		<p class="paragraph">
+		One-time without trimming - $20<br>
+		One-time with trimming - $25
+		</p>
+		<h2><strong class="heading">Weekly Service</strong></h2>
+		<p class="paragraph">
+		Weekly service without trimming - $15/week (Sign up before April 1st)<br>
+		Weekly service with trimming - $20/week (Sign up before April 1st)<br>
+		Weekly service without trimming - $20/week (If you sign up after April 1st)<br>
+		Weekly service with trimming - $25/week (If you sign up after April 1st)<br>
+		</p>
+		<!--Mow Planning Section-->
+		<h1><strong class="heading">Plan a Mowing</strong></h1>
+		<form class="paragraph"
+		action="mailto:cpstrommen@gmail.com"
+  		method="POST"
+  		enctype="multipart/form-data"
+  		name="Online Mow Planning">
+		First name:<br>
+		<input type="text" name="firstname"><br><br>
+		Email:<br>
+		<input type="text" name="email"><br><br>
+		Time:
+		<input type="number" name="time" min="1" max="12"><br><br>
+		<input type="radio" name="amorpm" value="pm" checked>PM<br>
+		<input type="radio" name="amorpm" value="am">AM<br><br>
+		Date(mm/dd/yy):<br>
+		<input type="text" name="date"><br><br>
+		<input type="checkbox" name="trimming" value="trimming">I want trimming services
+		<br><br>
+		<input type="submit" value="Email This Form">
+		<br><br>
+		</form>
+		</body>
+</html>
